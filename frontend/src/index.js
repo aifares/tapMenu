@@ -10,11 +10,11 @@ const theme = extendTheme({
   semanticTokens: {
     colors: {
       "chakra-body-text": {
-        _light: "purple.800",
+        _light: "#2B2D42",
         _dark: "pink.100",
       },
       "chakra-body-bg": {
-        _light: "blackAlpha.200",
+        _light: "#EDF2F4",
         _dark: "#8D99AE",
       },
     },

@@ -10,14 +10,14 @@ import {
   Button,
 } from "@chakra-ui/react";
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode();
-
   return (
     <div>
-      <Button onClick={toggleColorMode}>
-        Toggle {colorMode === "light" ? "Dark" : "Light"}
-      </Button>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="flex flex-row">
+        <h1 className="font-bold underline">Resturant Logo</h1>
+        <h1 className="font-bold underline">Resturant Logo</h1>
+        <h1 className="font-bold underline">cart</h1>
+      </div>
+
       <Tabs isFitted>
         <Box overflow="auto">
           <TabList w="max-content">
