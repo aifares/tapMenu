@@ -12,10 +12,12 @@ import {
 function App() {
   return (
     <div>
-      <div className="flex flex-row">
-        <h1 className="font-bold underline">Resturant Logo</h1>
-        <h1 className="font-bold underline">Resturant Logo</h1>
-        <h1 className="font-bold underline">cart</h1>
+      <div className="flex flex-col items-center">
+        <div className="flex flex-row justify-between w-full px-4">
+          <h1 className="font-bold underline flex-1 text-left">s</h1>
+          <h1 className="font-bold underline flex-1 text-center">l</h1>
+          <h1 className="font-bold underline flex-1 text-right">Cart</h1>
+        </div>
       </div>
 
       <Tabs isFitted>
