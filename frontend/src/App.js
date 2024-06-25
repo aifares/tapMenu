@@ -9,6 +9,8 @@ import {
   useColorMode,
   Button,
 } from "@chakra-ui/react";
+import MenuItem from "./components/MenuItem/index.tsx";
+
 function App() {
   return (
     <div>
@@ -37,7 +39,18 @@ function App() {
 
         <TabPanels>
           <TabPanel>
-            <p>one!</p>
+          <MenuItem
+          name="Burger"
+          price="$5.99"
+          description="A delicious beef burger with lettuce, tomato, and cheese."
+          imageUrl="https://via.placeholder.com/100" // Placeholder image URL
+        />
+        <MenuItem
+          name="Pizza"
+          price="$8.99"
+          description="A classic margherita pizza with fresh basil and mozzarella."
+          imageUrl="https://via.placeholder.com/100" // Placeholder image URL
+        />
           </TabPanel>
           <TabPanel>
             <p>two!</p>
